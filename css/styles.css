@@ -1344,9 +1344,9 @@ a:hover.back-to-top {
 
 
 	/* Header */
-	/*.header {
-		text-align: left;
-	}*/
+	.header {
+		text-align: center;
+	}
 
 	.header .text-container {
 		margin-top: 8rem;
