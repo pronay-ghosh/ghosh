@@ -41,13 +41,13 @@
                             <div class="col-2">
                                 <div class="input-group">
                                     <label class="label">First name</label>
-                                    <input class="input--style-4" type="text" name="first_name">
+                                    <input class="input--style-4" type="text" name="first_name" required>
                                 </div>
                             </div>
                             <div class="col-2">
                                 <div class="input-group">
                                     <label class="label">Last name</label>
-                                    <input class="input--style-4" type="text" name="last_name">
+                                    <input class="input--style-4" type="text" name="last_name" required>
                                 </div>
                             </div>
                         </div>
@@ -56,7 +56,7 @@
                                 <div class="input-group">
                                     <label class="label">Date of Birth</label>
                                     <div class="input-group-icon">
-                                        <input class="input--style-4 js-datepicker" type="text" name="birthday">
+                                        <input class="input--style-4 js-datepicker" type="text" name="birthday" required>
                                         <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
                                     </div>
                                 </div>
@@ -81,13 +81,13 @@
                             <div class="col-2">
                                 <div class="input-group">
                                     <label class="label">Phone Number</label>
-                                    <input class="input--style-4" type="email" name="email">
+                                    <input class="input--style-4" type="email" name="email" required>
                                 </div>
                             </div>
                             <div class="col-2">
                                 <div class="input-group">
                                     <label class="label">Email ID</label>
-                                    <input class="input--style-4" type="text" name="phone">
+                                    <input class="input--style-4" type="text" name="phone" required>
                                 </div>
                             </div>
                         </div>
@@ -95,20 +95,20 @@
                             <div class="col-2">
                                 <div class="input-group">
                                     <label class="label">Profession</label>
-                                    <input class="input--style-4" type="email" name="email">
+                                    <input class="input--style-4" type="email" name="email" required>
                                 </div>
                             </div>
                             <div class="col-2">
                                 <div class="input-group">
                                     <label class="label">NID No</label>
-                                    <input class="input--style-4" type="text" name="phone">
+                                    <input class="input--style-4" type="text" name="phone" required>
                                 </div>
                             </div>
                         </div>
                         <div class="input-group">
                             <label class="label">Your Desired Email ID</label>
                             <div class="rs-select2 js-select-simple select--no-search">
-                                <input class="input--style-4" type="text" name="last_name">
+                                <input class="input--style-4" type="text" name="last_name" required>
                                <!--  <select name="subject">
                                     <option disabled="disabled" selected="selected">Please Write Your desired Email ID</option>
                                     <option>Subject 1</option>
@@ -118,12 +118,11 @@
                                 <div class="select-dropdown"></div> -->
                             </div>
                             <br>
-                            <div class="checkbox">
-						<label>
-							<input type="checkbox"> I accept all the terms of use, rules & regulations and Privacy Policy.
-							<span class="checkmark"></span>
-						</label>
-					</div>
+                            <label class="radio-container">I accept all the terms of use, rules & regulations and Privacy Policy.
+                                            <input type="radio" name="terms">
+                                            <span class="checkmark"></span>
+                                        </label>
+                            
                         </div>
                         <div class="p-t-15">
                             <button class="btn btn--radius-2 btn--blue" type="submit">Submit</button>
