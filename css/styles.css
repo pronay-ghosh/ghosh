@@ -1491,7 +1491,7 @@ a:hover.back-to-top {
 
 	/* Copyright */
 	.copyright {
-		text-align: left;
+		text-align: center;
 	}
 
 	.copyright .list-unstyled li {
@@ -1500,7 +1500,7 @@ a:hover.back-to-top {
 	}
 
 	.copyright .statement {
-		text-align: right;
+		text-align: center;
 	}
 	/* end of copyright */
 
