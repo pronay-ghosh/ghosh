@@ -100,7 +100,7 @@ html {
 
 .gradient-multiline {
   position: relative;
-  width: 500px;
+/*   width: 500px; */
   margin: 40px auto;
   background-color: #fff;
   text-align: center;
